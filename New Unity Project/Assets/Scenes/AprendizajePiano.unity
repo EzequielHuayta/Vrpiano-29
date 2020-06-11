@@ -707,7 +707,7 @@ MonoBehaviour:
   multiplierThresholds: 040000000800000010000000
   scoreText: {fileID: 1526785643}
   missText: {fileID: 1043743744}
-  multiplier: {fileID: 0}
+  multiText: {fileID: 1178920070}
 --- !u!4 &26008526
 Transform:
   m_ObjectHideFlags: 0

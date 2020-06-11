@@ -20,7 +20,7 @@ public int[] multiplierThresholds;
 public static GameManager instance;
 public TextMeshProUGUI scoreText;
 public TextMeshProUGUI missText;
-public TextMeshProUGUI multiplier;
+public TextMeshProUGUI multiText;
     // Start is called before the first frame update
 
     void Start()
@@ -40,6 +40,7 @@ public TextMeshProUGUI multiplier;
             }
         }
 
+        multiText.text = "Multiplier: x" + currentMultiplier;
         currentScore += scorePerNote * currentMultiplier;
         scoreText.text = "Score " + currentScore;
     }
@@ -50,5 +51,8 @@ public TextMeshProUGUI multiplier;
     {
         miss += actualmiss;
         missText.text = "Miss " + miss;
+        currentMultiplier = 1;
+        multiplierTracker = 0;
+        multiText.text = "Multiplier: x" + currentMultiplier;
     }
 }
