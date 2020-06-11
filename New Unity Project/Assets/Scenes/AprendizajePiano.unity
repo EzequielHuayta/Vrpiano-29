@@ -4690,11 +4690,7 @@ GameObject:
   m_Layer: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_Name: 1
-=======
-  m_Name: Arrow
->>>>>>> parent of 373d588... gj
 =======
   m_Name: Arrow
 >>>>>>> parent of 373d588... gj
@@ -30530,7 +30526,6 @@ Transform:
   m_PrefabInstance: {fileID: 795722219}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &798938732
-<<<<<<< HEAD
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -30681,8 +30676,6 @@ Transform:
   m_PrefabInstance: {fileID: 801268345}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &802798190
-=======
->>>>>>> parent of 373d588... gj
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -51498,17 +51491,12 @@ Transform:
   m_GameObject: {fileID: 1320352182}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_LocalRotation: {x: 0.10281915, y: 0.033341315, z: -0.0032683183, w: 0.9941358}
   m_LocalPosition: {x: 33.12, y: 39, z: -100.5}
 =======
   m_LocalRotation: {x: 0.14396034, y: 0.71140826, z: -0.13557856, w: 0.67438287}
   m_LocalPosition: {x: 19.75, y: 40.5, z: -88.97}
 >>>>>>> 3961c68aab72385882ef3956945f04eccacb327e
-=======
-  m_LocalRotation: {x: 0.14396034, y: 0.71140826, z: -0.13557856, w: 0.67438287}
-  m_LocalPosition: {x: 28, y: 40.5, z: -88.97}
->>>>>>> parent of 373d588... gj
 =======
   m_LocalRotation: {x: 0.14396034, y: 0.71140826, z: -0.13557856, w: 0.67438287}
   m_LocalPosition: {x: 28, y: 40.5, z: -88.97}
