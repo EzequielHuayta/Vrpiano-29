@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     public int currentScore;
 
 public int scorePerNote = 100;
-
+public int scorePerGoodNote = 125;
+public int scorePerPerfectNote = 150;
 public int miss = 0;
 public int actualmiss = 1;
 
@@ -45,7 +46,20 @@ public TextMeshProUGUI multiText;
         scoreText.text = "Score " + currentScore;
     }
 
+public void NormalHit()
+{
 
+}
+
+public void Goodhit()
+{
+
+}
+
+public void PerfectHit()
+{
+
+}
     // Update is called once per frame
     public void NoteMissed()
     {
